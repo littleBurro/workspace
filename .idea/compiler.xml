@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
+        <module name="config-server" />
+        <module name="demo" />
+        <module name="eureka-server" />
+        <module name="feign-consumer" />
+        <module name="hello-service-api" />
+        <module name="hystrix-dashboard" />
+        <module name="ribbon-consumer" />
+        <module name="springcloud-learning" />
+        <module name="turbine" />
+        <module name="turbine-amqp" />
+        <module name="user-server" />
+        <module name="video" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="feign-consumer" target="1.8" />
+      <module name="hello-service-api" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
+      <module name="ribbon-consumer" target="1.8" />
+      <module name="springcloud-learning" target="1.8" />
+      <module name="turbine" target="1.8" />
+      <module name="turbine-amqp" target="1.8" />
+      <module name="user-server" target="1.8" />
+      <module name="video" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
